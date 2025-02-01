@@ -71,7 +71,7 @@ def display_frames(display_queue, class_colors, stop_event):
     cv2.destroyAllWindows()
 
 def main():
-    video_path = "pato_to_video"
+    video_path = "path_to_video_or_leave_blank_for_webcam"
     selected_classes = ['car', 'person']
     all_classes = True
     class_colors = generate_class_colors(selected_classes)
